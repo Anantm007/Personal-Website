@@ -3164,6 +3164,17 @@ h6 {
   padding-bottom: 60px;
   padding-left: 6rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .tabs_inner .tab-content .tab-pane .list {
+    max-width: 45rem;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 3rem;
+  }
+}
 .tabs_inner .tab-content .tab-pane .list:before {
   content: "";
   height: 100%;
@@ -3373,12 +3384,12 @@ h6 {
 .personal_text .personal_social li a {
   line-height: 40px;
   width: 40px;
-  background: #e8e8e8;
-  border-radius: 5px;
+  background: gray;
   display: inline-block;
   text-align: center;
   color: #fff;
   font-size: 16px;
+  border: 0.1px dotted gray;
 }
 .personal_text .personal_social li:hover a {
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
