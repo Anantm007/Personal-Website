@@ -5387,6 +5387,24 @@ input[type="submit"].btn-block {
   flex: 1;
 }
 
+@media screen and (min-width: 480px) {
+  .present_job_class {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .freelance_job_class {
+    margin-left: 3.8rem!important;
+  }
+  .media_body_margin {
+    margin-left: 100px;
+  }
+  .school_margin_class {
+    margin-left: 6.5rem;
+  }
+}
+
 .list-group {
   display: -ms-flexbox;
   display: flex;
